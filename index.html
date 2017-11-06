@@ -1,0 +1,57 @@
+
+<html ng-app="DevDimApp">
+<head>
+<title>Solvar Dimitri</title>
+
+<meta charset="UTF-8">
+<meta name="description" content="Porte Folio Solvar">
+<meta name="keywords" content="Solvar,Dimitri,cv,Projet,Angular">
+<meta name="author" content="Dimitri Solvar">
+
+<link rel="icon" type="image/ico" href=""/>
+<LINK rel=stylesheet type="text/css" href="./app/css/style.css">
+<script src="Scripts/xdomain.min.js"></script>
+<script src="Scripts/JQuery/jquery-1.11.0.js"></script>
+<script src="Scripts/JQuery/jquery.easing.1.3.js"></script>
+<script src="Scripts/JQuery/jquery-ui.js"></script>
+     <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtsoGUzNz06jLhiRwzwxkKyaioiM2Y6Rk">
+    </script>
+<script src="Scripts/ckeditor/ckeditor.js"></script>
+<script src="Scripts/Angular/angular.js"></script>
+<script src="Scripts/Angular/angular-route.js"></script>
+<script src="Scripts/i18n/angular-locale_fr-fr.js"></script>
+<script src="Scripts/Angular/angular-resource.min.js"></script>
+<script src="Scripts/Angular/angular-sanitize.min.js"></script>
+<script src="app/js/app.js"></script>
+<script src="app/js/controllers/accueilController.js"></script>
+<script src="app/js/controllers/experienceController.js"></script>
+<script src="app/js/controllers/loisirController.js"></script>
+<script src="app/js/controllers/contactController.js"></script>
+<script src="app/js/controllers/formationController.js"></script>
+<script src="app/js/controllers/projetController.js"></script>
+
+<script src="app/js/directives/mapDirective.js"></script>
+<script src="app/js/directives/highchartDirective.js"></script>
+
+<script src="app/js/factory/dataFactory.js"></script>
+
+<script src="Scripts/HighChart/HighChart.js"></script>
+<script src="Scripts/HighChart/highcharts-more.js"></script>
+<script src="Scripts/HighChart/highcharts-3d.js"></script>
+<script src="Scripts/HighChart/exporting.js"></script>
+
+</head>
+<body class="body">
+<nav>
+	<ul class="menu">
+	<li ng-repeat="elem in menu" ><a ng-class="{current: currentPath.match(elem.Url) != null}" href="{{elem.Url}}">{{elem.Label}}</a></li>	
+	</ul>
+</nav>
+<div id="contain">
+ <div id="main" class="main" ng-view></div>
+</div>
+
+    
+</body>
+</html>

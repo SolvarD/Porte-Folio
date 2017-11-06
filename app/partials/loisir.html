@@ -1,0 +1,19 @@
+﻿<div class="intro">
+</div>
+<div class="corps">
+    <article ng-repeat="loisir in vm.loisirs">
+        <div class="block w30">
+            <img src="{{loisir.Img}}" height="100" width="200" />
+        </div>
+        <div class="block w70">           
+            <section>
+                <h4 class="titreparagraph" ng-bind-html="loisir.Titre"></h4>
+            </section>
+            <section>
+                <p ng-bind-html="loisir.Contenu"></p>
+            </section>
+        </div>
+
+
+    </article>
+</div>

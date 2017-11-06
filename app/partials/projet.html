@@ -1,0 +1,11 @@
+﻿<div class="intro">
+
+</div>
+<div class="corps">
+<article ng-repeat="loisir in vm.loisirs">
+	<header><h4 class="titreparagraph">{{projet.Titre}} </h4></header>
+	<section> <p  ng-bind-html="loisir.Titre"></p> </section>
+	<section> <p  ng-bind-html="loisir.Contenu"></p><img src="{{loisir.Img}}"  height="200" width="300" /></section>
+	
+</article>
+</div>

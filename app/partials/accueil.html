@@ -1,0 +1,17 @@
+﻿<div class="block w70">
+    <h4 class="titreparagraph">Bonjour et bienvenue sur mon porte-folio (en angularJs)</h4>
+
+    <div style="margin-left:25px;" class="block w90">
+        <article ng-repeat="article in vm.articles">
+            <header>
+                <h4 class="titreparagraph">{{article.Titre}} </h4>
+            </header>
+            <section>
+                <p ng-bind-html="article.Contenu"></p>
+            </section>
+        </article>
+    </div>
+</div>
+<div style="margin-top:25px;" class="block w30">
+    <img style="margin-left: 20px;" width="220" height="340" src="./img/DSC_0073.JPG" />
+</div>

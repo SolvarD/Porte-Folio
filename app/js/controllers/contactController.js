@@ -1,0 +1,5 @@
+﻿DevDimControllers.controller('contactController', [
+    function () {
+
+
+    }]);

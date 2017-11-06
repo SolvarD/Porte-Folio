@@ -1,0 +1,9 @@
+﻿<div class="intro">
+
+</div>
+<div class="corps">
+<article ng-repeat="formation in vm.formations">
+	<header></header>
+	<section><h4> <label>{{formation.Annee}}</label> : <label>{{formation.Titre}} </label><label class="inlb"  ng-bind-html="formation.Ecole"></label></h4></section>	
+</article>
+</div>

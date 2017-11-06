@@ -1,0 +1,25 @@
+﻿<div class="corps">
+    <article ng-repeat="projet in vm.projets">
+        <header>
+            <h4 class="titreparagraph" ng-bind-html="projet.Titre"></h4>
+        </header>
+        <section>
+            <p ng-bind-html="projet.Description"></p>
+           <!-- <p ng-bind-html="projet.Img"></p>-->
+        </section>
+
+        <section>
+            <ul>
+                <li ng-repeat="action in projet.Actions">
+                    <label ng-bind-html="action"></label>
+                </li>
+            </ul>
+
+        </section>
+
+    </article>
+
+    <div highchart align="center" id="container"></div>
+
+
+</div>
