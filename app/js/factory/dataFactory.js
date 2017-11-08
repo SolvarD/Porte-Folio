@@ -13,7 +13,7 @@
       }, {
         "Titre": "Bac MEI (Maintenance des Equipement Industriels)",
         "Annee": "2006-2008",
-        "Ecole": "<a target=\"_blank\" href=\"http://www.lyceerobertschuman.com/infos/maintenance-industrielle.php\" >(Robert Schuman) </a>"
+        "Ecole": "<a target=\"_blank\" href=\"http://www.lyceerobertschuman.com/formation/formation-bac-pro-m-e-i/\" >(Robert Schuman) </a>"
       }];
 
       return {
