@@ -1,0 +1,32 @@
+{
+    "name": "porte-folio",
+    "version": "1.0.0",
+    "description": "cv online",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "npm run test:chrome",
+        "start": "gulp start",
+        "setup": "npm install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SolvarD/Porte-Folio.git"
+    },
+    "author": "SolarD",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SolvarD/Porte-Folio/issues"
+    },
+    "homepage": "https://github.com/SolvarD/Porte-Folio#readme",
+    "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-minify": "^2.1.0",
+        "gulp-uglify": "^3.0.0",
+        "karma": "^2.0.2",
+        "minify": "^3.0.5"
+    }
+}
